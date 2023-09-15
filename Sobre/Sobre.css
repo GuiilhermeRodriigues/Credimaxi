@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'REM', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #021e36;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  max-width: 120%;
+}
+
+.logo {
+  width: 50%;
+  margin: 0;
+
+}
+
+.logo img {
+  width: 230px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #04d385;
+  transition: 0.6s all;
+}
+
+main {
+  padding: 40px;
+}
+
+#fist {
+  margin-top: 15px;
+}
+
+.middle {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.middle img{
+width: 230px;
+
+}
+
+#second {
+  margin-top: 30px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #04d385;
+  margin-left: 12px;
+}
+
+p {
+  line-height: 40px;
+  justify-content: space-around;
+  font-size: 15px;
+  margin: 12px;
+}
+
+h3 {
+  line-height: 40px;
+  justify-content: space-around;
+  font-size: 30px;
+  margin: 12px;
+  color: #021e36;
+}
+
+.evento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.para {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding: 5px;
+  margin: 15px;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  max-width: max-content;
+  margin-bottom: 0 auto;
+}
+
+#footer_content {
+  background-color: #021e36;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding: 3rem 3.5rem;
+  margin-bottom: 0 auto;
+}
+
+#footer_contacts p {
+  margin-bottom: 0.75rem;
+}
+
+#rodape_logo {
+  width: 50%;
+  margin: 0;
+}
+
+#rodape_logo img {
+  width: 300px;
+}
+
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+#footer_social_media .footer_link i {
+  font-size: 1.25rem;
+}
+
+#footer_social_media .footer_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+#footer_social_media .footer_link:hover {
+  opacity: 0.8;
+}
+
+#Instagram {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9007)
+}
+
+#Whatsapp {
+  background-color: #25d366;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+  align-items: center;
+}
+
+.footer-list h3 {
+  color: white;
+}

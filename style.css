@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;200;300;400;500;600&display=swap');
+
+*{
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'REM', sans-serif;
+  letter-spacing: 1px;
+  
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  background-color: #021e36;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  max-width: 120%;
+  }
+
+  .logo{
+    width: 50%;
+    margin: 0;
+    
+  }
+  
+  .logo img{
+      width: 230px;
+  }
+
+  li{
+    display: inline-block;
+    margin: 20px;
+  }
+
+a{
+    color: white;
+    text-decoration: none;
+    
+  }
+
+a:hover{
+  color:#04d385;
+  transition: 0.3s all;
+}
+
+
+.primeiro{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Texto{
+  padding: 45px;
+  width: 100%;
+}
+
+.saco img{
+  width: 100%;
+}
+
+h2{
+  font-size: 56px;
+  color: #021e36;
+  margin-left: 12px;
+}
+
+span{
+  color: #04d385;
+}
+
+p{
+  line-height: 40px;
+  justify-content: space-around;
+  font-size: 30px;
+  margin: 12px;
+}
+
+button{
+  background-color: #021e36;
+  width: 180px;
+  height: 60px;
+  margin: 12px;
+  color: white;
+  font-weight: bold;
+  border: none;
+box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+
+.texto_banco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.segundo h2{
+  font-size: 56px;
+  justify-items: center;
+  margin-left:35%;
+  margin-top: 150px;
+}
+
+.texto_banco p{
+  line-height: 40px;
+  justify-content: space-around;
+  font-size: 30px;
+  margin: 12px;
+}
+
+.Bancos{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 5fr);
+  padding: 10rem 5rem;
+}
+
+.bancos_fist{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 120px;
+}
+
+.bancos_fist img{
+
+  width: 230px;
+}
+
+.bancos_second{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 120px;
+}
+
+.bancos_second img{
+
+  width: 230px;
+}
+
+
+footer{
+  width: 100%;
+  color: white;
+  max-width: max-content;
+  margin-bottom: 0 auto;
+}
+
+#footer_content{
+  background-color: #021e36;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding: 3rem 3.5rem;
+  margin-bottom: 0 auto;
+}
+
+#footer_contacts p{
+  margin-bottom: 0.75rem;
+}
+
+#rodape_logo{
+  width: 50%;
+    margin: 0;
+}
+
+#rodape_logo img{
+  width: 300px;
+}
+
+#footer_social_media{
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+#footer_social_media .footer_link i {
+font-size: 1.25rem;
+}
+
+#footer_social_media .footer_link{
+display: flex;
+align-items:center;
+justify-content: center;
+height: 2.5rem;
+width: 2.5rem;
+color: white;
+border-radius: 50%;
+transition: all 0.4s;
+}
+
+#footer_social_media .footer_link:hover{
+  opacity: 0.8;
+}
+
+#Instagram{
+  background: linear-gradient(#7f37c9, #ff2992, #ff9007 )
+}
+
+#Whatsapp{
+  background-color: #25d366;
+}
+
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+  align-items: center;
+
+}
+
