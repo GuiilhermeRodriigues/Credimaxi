@@ -169,3 +169,97 @@ footer{
     align-items: center;
   
   }
+
+  @media (min-width: 768px) and (max-width:1024px) {
+    header{
+      width: 100%;
+      max-width: 1024px;
+    }
+    
+    main{background-color: white;
+  
+    }
+  
+    .Bancos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  .bancos_second{
+    margin-left: 280px;
+    margin-top: 1px;
+  }
+  
+  #footer_content{
+    grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-right: 2rem;
+  justify-content: center;
+  max-width: 1024px;
+  width: 100%;
+  }
+  
+  }
+  
+    
+  @media (max-width:450px) {
+    html{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-width: 450px;
+    }
+    
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+    header{
+      display: flex;
+      flex-direction: column;
+      background-color: #021e36;
+   width: 100%;
+   max-width: 450px;
+    }
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main{
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .informacoes-contato{
+    display: flex;
+    align-items: center;
+  }
+
+ .redes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  gap: 20px;
+
+ }
+
+ .instaa{
+  margin-left: 60px;
+  margin-bottom: 50px;
+ }
+
+ .whatss{
+  margin-left: 50px;
+  margin-bottom: 50px;
+ }
+
+  footer{
+   display: none;
+  }
+  
+  }

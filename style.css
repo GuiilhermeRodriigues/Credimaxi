@@ -98,7 +98,8 @@ border-radius: 20px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
+  padding: 45px;
 }
 
 .segundo h2{
@@ -217,3 +218,113 @@ transition: all 0.4s;
 
 }
 
+#footer_copyright{
+  display: flex;
+  justify-content: center;
+  background-color: #021e36;
+  font-weight: 100;
+}
+
+#footer_copyright p{
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+  header{
+    width: 100%;
+    max-width: 1024px;
+  }
+  
+  main{background-color: white;
+
+  }
+
+  .Bancos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+.bancos_second{
+  margin-left: 280px;
+  margin-top: 1px;
+}
+
+#footer_content{
+  grid-template-columns: repeat(3, 1fr);
+gap: 2rem;
+margin-right: 2rem;
+justify-content: center;
+max-width: 1024px;
+width: 100%;
+}
+
+}
+
+  
+@media (max-width:450px) {
+  html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    background-color: #021e36;
+ width: 100%;
+ max-width: 450px;
+  }
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  width: 100%;
+  max-width: 450px;
+}
+
+.saco{
+  display: none
+}
+
+.segundo{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Bancos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bancos_fist{
+  display: flex;
+  margin-left: 50%;
+  gap: 100px;
+}
+
+.bancos_second{
+  display: flex;
+  margin-right: 50%;
+  gap: 100px;
+  margin-top: 100px;
+}
+
+footer{
+ display: none;
+}
+
+}
